@@ -9,7 +9,7 @@
 ## Folders content 文件夹内容
 
 - `。/ src`文件夹包含TypeScript中的源代码。
-
+    
 - `。/ lib`文件夹包含在es5代码中的转换。 因此，如果您不知道如何使用TypeScript  - 您可以修改这些文件以便稍后更改结果包。
 
 - `./ dist`文件夹包含捆绑的JavaScript文件，这些文件可以内联到页面中并在Widget构造函数中使用。

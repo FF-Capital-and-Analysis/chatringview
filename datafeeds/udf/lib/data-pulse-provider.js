@@ -1,10 +1,10 @@
 import { getErrorMessage, logMessage, } from './helpers';
 var DataPulseProvider = /** @class */ (function () {
-    function DataPulseProvider(historyProvider, updateFrequency) {
-        this._subscribers = {};
-        this._requestsPending = 0;
-        this._historyProvider = historyProvider;
-        setInterval(this._updateData.bind(this), updateFrequency);
+    function DataPulseProvider(historyProvider, updateFrequency) { //历史数据、更新频率
+        this._subscribers = {}; //订阅者
+        this._requestsPending = 0; //请求待发
+        this._historyProvider = historyProvider; //历史脉冲数据
+        setInterval(this._updateData.bind(this), updateFrequency); //设置间隔
     }
     DataPulseProvider.prototype.subscribeBars = function (symbolInfo, resolution, newDataCallback, listenerGuid) {
         if (this._subscribers.hasOwnProperty(listenerGuid)) {
