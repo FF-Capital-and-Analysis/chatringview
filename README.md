@@ -1,12 +1,5 @@
-## 启动办法
-*使用nodeJs启动
-
-*首先安装 http-server: 
-    npm install http-server -g
-    
-*在图表库文件夹中，通过以下命令启动http-server:  
-    http-server -p 9090
-
+## General
+* Please use English. We want to share experience between our customers to increase effectiveness of this bug tracker.
 
 ## Reporting a bug
 * Please help us spend our time effectively and always update your Library's build to the latest `unstable` version to check if the issue still happens. You can also find the Charting Library built from `unstable` at https://demo_chart.tradingview.com

@@ -1,5 +1,3 @@
-# 图表数据源
+# Charting Library Datafeeds
 
-此文件夹包含Charting Library Datafeeds的实现。
-
-
+This folder contains implementation of Charting Library Datafeeds.
